@@ -1,32 +1,22 @@
+<!DOCTYPE HTML>
 
-<!DOCTYPE html>
 <html>
-
 <body>
-
 <script type="text/javascript">
-	
-var numb= prompt("Please enter a number: ")
+miles=prompt("How many miles did you drive: ")
+console.log(miles)
 
-console.log(numb)
+gallons=prompt("How many gallons did you use: ")
+console.log(gallons)
 
-thousands=numb%1000
-hundreds=numb%100
-tens=numb%10
-ones=numb%1
-console.log("Thousands: " + thousands + "\n" + "Hundreds: " + hundreds + "\n" + "Tens: " + tens + "\n" + "Ones: " + ones )
+mpg=miles/gallons
 
+console.log("Your car gets " + mpg + " miles per gallon")
 
 
 
 
 </script>
-
-
-
-
-
-
 
 </body>
 </html>
