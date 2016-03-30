@@ -6,18 +6,15 @@
 
 <script type="text/javascript">
 	
-var miles= prompt("Enter how many miles you drove: ")
+var numb= prompt("Please enter a number: ")
 
-console.log(miles)
+console.log(numb)
 
-var gallons= prompt("Enter how many gallons of gas you used: ")
-
-
-console.log(gallons)
-
-mpg=miles/gallons
-
-console.log("Your car gets " + mpg + " miles per gallon")
+thousands=numb%1000
+hundreds=numb%100
+tens=numb%10
+ones=numb%1
+console.log("Thousands: " + thousands + "\n" + "Hundreds: " + hundreds + "\n" + "Tens: " + tens + "\n" + "Ones: " + ones )
 
 
 
